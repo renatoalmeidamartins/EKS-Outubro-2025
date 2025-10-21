@@ -13,9 +13,16 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
 
 # Links do dia 1
 - [12 factor app](https://12factor.net/)
-= [There's no place like production](https://imwrightshardcode.com/2010/12/theres-no-place-like-production/)
+- [There's no place like production](https://imwrightshardcode.com/2010/12/theres-no-place-like-production/)
 - [10+ deploys per day at Flicks - video que meio que dá origem ao termo DevOps](https://www.youtube.com/watch?v=LdOe18KhtT4)
 - [The Phoenix project](https://www.amazon.com.br/Phoenix-Project-Gene-Kim/dp/1950508943)
 - [The unicorn project](https://www.amazon.com.br/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B082XJPDBB)
 - [The DevOps Handbook](https://www.amazon.com.br/DevOps-Handbook-World-Class-Reliability-Organizations-ebook/dp/B09G2GS39R)
 - [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://www.amazon.com.br/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/)
+- [Artigo publicado no IEEE ICC 2019, comparando plataformas de orquestração de containers](https://isamaljawarneh.github.io/pubs/ICC19.pdf)
+- [CNCF Landscape, panorama dos projetos "reconhecidos" pela Cloud Native Computing Foundation](https://landscape.cncf.io/)`
+- [Arquitetura de Kubernetes](https://kubernetes.io/docs/concepts/architecture/)
+- [Kubeadm, ferramenta principal para configuração de um cluster](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/)
+- [Kubernetes the hard way](github.com/kelseyhightower/kubernetes-the-hard-way)
+- [Taints and tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
+- [Criterios de afinidade de pod](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
