@@ -9,3 +9,13 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
 - [EKS Primer](https://skillbuilder.aws/learn/Z521GMBP1J/amazon-eks-primer/NGM5AF9K72)
 - [AWS Cloud Practitioner Essentials](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)
 - [Introduction to containers](https://skillbuilder.aws/learn/CUCA1DK47V/introduction-to-containers/XJ58VC1FF5)
+
+
+# Links do dia 1
+- [12 factor app](https://12factor.net/)
+= [There's no place like production](https://imwrightshardcode.com/2010/12/theres-no-place-like-production/)
+- [10+ deploys per day at Flicks - video que meio que dá origem ao termo DevOps](https://www.youtube.com/watch?v=LdOe18KhtT4)
+- [The Phoenix project](https://www.amazon.com.br/Phoenix-Project-Gene-Kim/dp/1950508943)
+- [The unicorn project](https://www.amazon.com.br/Unicorn-Project-Developers-Disruption-Thriving-ebook/dp/B082XJPDBB)
+- [The DevOps Handbook](https://www.amazon.com.br/DevOps-Handbook-World-Class-Reliability-Organizations-ebook/dp/B09G2GS39R)
+- [Accelerate: The Science of Lean Software and DevOps: Building and Scaling High Performing Technology Organizations](https://www.amazon.com.br/Accelerate-Software-Performing-Technology-Organizations/dp/1942788339/)
