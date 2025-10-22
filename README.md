@@ -90,4 +90,7 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
 - [Uso de X-Ray, atenção à iminente descontinuidade do serviço](https://docs.aws.amazon.com/xray/latest/devguide/xray-gettingstarted.html)
 - [Definições principais de Prometheus](https://prometheus.io/docs/introduction/overview/)
 - [CloudWatch agent no EKS, não recomendado, mas mencionado no material](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-setup-metrics.html)
-
+- [Diversas saídas possíveis para FluentBit](https://docs.fluentbit.io/manual/data-pipeline/outputs)
+- [Uso de fluentbit em Fargate - firelens](https://docs.aws.amazon.com/eks/latest/userguide/fargate-logging.html)
+- [CNI - especificação genéricas de plugins de rede do Kubernetes](https://github.com/containernetworking/cni)
+- [CNI de VPC](https://github.com/aws/amazon-vpc-cni-k8s)
