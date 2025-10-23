@@ -121,11 +121,42 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
   - [Security group for pods, forma de reutilizar sua estrutura de security groups](https://docs.aws.amazon.com/eks/latest/userguide/security-groups-for-pods.html)
   - [Definição de service no kubernetes.io](https://kubernetes.io/docs/concepts/services-networking/service)
   - [Configuração de NLB por meio de anotações de servicoi](https://docs.aws.amazon.com/eks/latest/userguide/auto-configure-nlb.html)
-  - [REpo de balanceadores da AWS, mantido por um SIG do Kubernetes](https://github.com/kubernetes-sigs/aws-load-balancer-controller#readme)
+  - [Repo de balanceadores da AWS, mantido por um SIG do Kubernetes](https://github.com/kubernetes-sigs/aws-load-balancer-controller#readme)
   - [Documentação em kuberntes.io, de IngressControllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
-  
+  - [Descrição da CNI de VPC](https://docs.aws.amazon.com/eks/latest/best-practices/vpc-cni.html)
+  - [Repo da CNI de VPC](https://github.com/aws/amazon-vpc-cni-k8s)
+
 - Segurança
   - [Doc de boas práticas de criação de containers, foco no USER](https://docs.docker.com/build/building/best-practices/#user)
   - [Pod Security Standard, tenta simplificar as definições de segurança para pods](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
   - [Security context para pods e containers](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
   - [Pod Security Admission, que força pods a terem um certo security standard para poder ser admitido, podendo auditar, avisar, e bloquear](https://kubernetes.io/docs/concepts/security/pod-security-admission/)
+
+
+- Extensão do Kubectl 
+  - [Krew, gerenciador de pacotes para Kubectl]()
+
+- Autenticação e autorização
+  - [Modo antigo de autenticar, via aws-auth ConfigMap](https://docs.aws.amazon.com/eks/latest/userguide/auth-configmap.html)
+  - [Access Entries, nova forma de autenticação em EKS](https://docs.aws.amazon.com/eks/latest/userguide/access-entries.html) 
+  - [Suporte a provedores OIDC no EKS, especificamente ilustrando o uso do Entra - Azure AD - para autenticação ](https://aws.amazon.com/blogs/containers/using-azure-active-directory-to-authenticate-to-amazon-eks/)
+  - [IAM Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html)
+  - [Autorização RBAC do Kubernetes](https://kubernetes.io/docs/reference/access-authn-authz/rbac/ )
+  - [IAM roles for service accounts - IRSA](https://docs.aws.amazon.com/eks/latest/userguide/iam-roles-for-service-accounts.html)
+  - [pod identity](https://docs.aws.amazon.com/eks/latest/userguide/pod-identities.html)
+  - [Comparando IRSA com pod identity](https://docs.aws.amazon.com/eks/latest/userguide/service-accounts.html#service-accounts-iam)
+- Guard Duty para EKS
+  - [Proteção geral de EKS via Guard Duty](https://docs.aws.amazon.com/guardduty/latest/ug/kubernetes-protection.html)
+  - [Runtime monitoring com Guard Duty - aplicável para praticamente qualquer tipo de compute](https://docs.aws.amazon.com/guardduty/latest/ug/runtime-monitoring.html)
+
+
+- Armazenamento
+  - [EBS Multi-attach](https://docs.aws.amazon.com/ebs/latest/userguide/working-with-multi-attach.html)
+  - [EBS Multi-attach só pode ser usado para clusters distintos, não para nós diferentes no mesmo cluster](https://repost.aws/knowledge-center/eks-multi-attach-volumes)
+  - [Persistent volume claims se vinculam ao persistent volume que atenda a especificação, ou este pode ser escolhido com spec.volumeName](https://kubernetes.io/docs/concepts/storage/persistent-volumes/#binding)
+  - [Storage class, facilita abstrair o tipo de implementação do storage](https://kubernetes.io/docs/concepts/storage/storage-classes/)
+  - [Tipos de volume EBS](https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volume-types.html)
+  - [Provisionamento dinâmico em EFS](https://aws.amazon.com/blogs/containers/introducing-efs-csi-dynamic-provisioning/)
+  - [Driver CSI para secret store (functiona com Secrets MAnager, Key Vault no Azure e outros)](https://secrets-store-csi-driver.sigs.k8s.io/concepts.html#provider-for-the-secrets-store-csi-driver)
+  - [Secrets no Kubernetes.io](https://kubernetes.io/docs/concepts/configuration/secret/)
+  - [Repo de CSI de Secret Store para AWS](https://github.com/aws/secrets-store-csi-driver-provider-aws)
