@@ -170,3 +170,7 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
   - [Driver CSI para secret store (functiona com Secrets MAnager, Key Vault no Azure e outros)](https://secrets-store-csi-driver.sigs.k8s.io/concepts.html#provider-for-the-secrets-store-csi-driver)
   - [Secrets no Kubernetes.io](https://kubernetes.io/docs/concepts/configuration/secret/)
   - [Repo de CSI de Secret Store para AWS](https://github.com/aws/secrets-store-csi-driver-provider-aws)
+
+  - Recursos adicionais
+    - [CDK8s - CDK para Kubernetes](https://cdk8s.io/)
+    - [EKS Workshops](https://www.eksworkshop.com/)
