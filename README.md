@@ -30,7 +30,7 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
   - [Kubernetes the hard way](github.com/kelseyhightower/kubernetes-the-hard-way)
   - [Taints and tolerations](https://kubernetes.io/docs/concepts/scheduling-eviction/taint-and-toleration/)
   - [Criterios de afinidade de pod](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)
--   [Tipos de workloads no kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/)
+  - [Tipos de workloads no kubernetes](https://kubernetes.io/docs/concepts/workloads/controllers/)
   - [Estrutura de um deploymentspec, atenção aos parâmetros maxUnavailable e maxSurge](https://v1-32.docs.kubernetes.io/docs/concepts/workloads/controllers/deployment/#writing-a-deployment-spec) 
   - [Operators, um bom padrão para extensão da API](https://www.cncf.io/blog/2022/06/15/kubernetes-operators-what-are-they-some-examples/)
   - [Repositório de operators](https://operatorhub.io/)
@@ -106,6 +106,12 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
   - [CloudWatch agent no EKS, não recomendado, mas mencionado no material](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/Container-Insights-setup-metrics.html)
   - [Diversas saídas possíveis para FluentBit](https://docs.fluentbit.io/manual/data-pipeline/outputs)
   - [Uso de fluentbit em Fargate - firelens](https://docs.aws.amazon.com/eks/latest/userguide/fargate-logging.html)
+- GitOps 
+  - [Conceitos de GitOps, pelos autores de um livro](https://www.gitops.tech/)
+  - [O livro escrito pelos autores do texto acima](https://leanpub.com/gitops)
+  - [Definiçõ de GitOps pela ReHat](https://www.redhat.com/en/topics/devops/what-is-gitops)
+  - [ArgoCD](https://argo-cd.readthedocs.io/en/stable/)
+  - [Flux](https://fluxcd.io/)
 - Redes em Kubernetes
   - [CNI - especificação genéricas de plugins de rede do Kubernetes](https://github.com/containernetworking/cni)
   - [CNI de VPC](https://github.com/aws/amazon-vpc-cni-k8s)
