@@ -115,3 +115,17 @@ A forma tipicamente recomendada para login é usando o "builder id". O problema 
 - Redes em Kubernetes
   - [CNI - especificação genéricas de plugins de rede do Kubernetes](https://github.com/containernetworking/cni)
   - [CNI de VPC](https://github.com/aws/amazon-vpc-cni-k8s)
+# LInks do dia 3
+- Rede 
+  - [NetworkPolicy](https://kubernetes.io/docs/concepts/services-networking/network-policies/)
+  - [Security group for pods, forma de reutilizar sua estrutura de security groups](https://docs.aws.amazon.com/eks/latest/userguide/security-groups-for-pods.html)
+  - [Definição de service no kubernetes.io](https://kubernetes.io/docs/concepts/services-networking/service)
+  - [Configuração de NLB por meio de anotações de servicoi](https://docs.aws.amazon.com/eks/latest/userguide/auto-configure-nlb.html)
+  - [REpo de balanceadores da AWS, mantido por um SIG do Kubernetes](https://github.com/kubernetes-sigs/aws-load-balancer-controller#readme)
+  - [Documentação em kuberntes.io, de IngressControllers](https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/)
+  
+- Segurança
+  - [Doc de boas práticas de criação de containers, foco no USER](https://docs.docker.com/build/building/best-practices/#user)
+  - [Pod Security Standard, tenta simplificar as definições de segurança para pods](https://kubernetes.io/docs/concepts/security/pod-security-standards/)
+  - [Security context para pods e containers](https://kubernetes.io/docs/tasks/configure-pod-container/security-context/)
+  - [Pod Security Admission, que força pods a terem um certo security standard para poder ser admitido, podendo auditar, avisar, e bloquear](https://kubernetes.io/docs/concepts/security/pod-security-admission/)
